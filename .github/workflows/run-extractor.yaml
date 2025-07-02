@@ -21,7 +21,7 @@ on:
         - OpenAPIV2Json
 
 env:
-  apiops_release_version: v6.0.1.1
+  apiops_release_version: v6.0.1.7
 
 jobs:
   extract:
@@ -154,6 +154,10 @@ jobs:
   create-pull-request:
     needs: extract
     runs-on: [ubuntu-latest]
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
           
