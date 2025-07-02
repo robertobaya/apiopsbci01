@@ -1,1 +1,6 @@
 apimServiceName: apim-produccion01
+namedValues:
+loggers:
+diagnostics:
+backends:
+apis:
