@@ -1,5 +1,13 @@
 apimServiceName: apim-produccion01
 namedValues:
+  - name: tipoplainvalue #nombre del Named Vaule en origen
+    properties:
+      displayName: nuevoDisplayName # displayname para destino
+      value: "https://www.ejemplo.com" # valor nuevo para destino
+  - name: tiposecretvalue  #nombre del Named Value en origen
+    properties:
+      displayName: tiposecretvalue # displayname para destino
+      value: "Prodsecret" # valor nuevo para destino
 loggers:
 diagnostics:
 backends:
