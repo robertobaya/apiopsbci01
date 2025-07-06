@@ -1,7 +1,14 @@
 {
   "properties": {
     "credentials": {
-      "header": {},
+      "header": {
+        "secretkv": [
+          "{{srcreto-key-vault}}"
+        ],
+        "secretplain": [
+          "{{tiposecretvalue}}"
+        ]
+      },
       "query": {}
     },
     "description": "backend de ejemplo",
