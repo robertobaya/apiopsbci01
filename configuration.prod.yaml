@@ -14,7 +14,7 @@ namedValues:
     properties:
       displayName: srcreto-key-vault # displayname para destino se usa esto como ejemplo ya que no importa
       keyVault:
-        identityClientId: 5dddf65a-a397-48df-8459-ca33acb72c80 # es el APP ID del managed identity destino 
+        identityClientId: afa6a812-6b59-4457-8569-7fe3e20ccd70 # es el APP ID del managed identity destino 
         secretIdentifier: https://prd-key-vaultbci.vault.azure.net/secrets/secreto-kv-PRD/d7a0e236ed5b42cd981f9df60f836997 # el identifier del secreto creado en destino
 loggers:
 diagnostics:
