@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "scope": "/subscriptions/253cd29a-432b-4b74-a6c9-a9eaf34b2bf4/resourceGroups/rg-dev/providers/Microsoft.ApiManagement/service/apim-desarrollo/products/starter",
+    "allowTracing": false,
+    "ownerId": "/subscriptions/253cd29a-432b-4b74-a6c9-a9eaf34b2bf4/resourceGroups/rg-dev/providers/Microsoft.ApiManagement/service/apim-desarrollo/users/1",
+    "state": "active"
+  }
+}
