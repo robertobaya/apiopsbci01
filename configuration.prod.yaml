@@ -12,7 +12,7 @@ namedValues:
   # el nombre que le demos al Named value no importa y tampodo su display name porque usará el secreto del KV de todas formas normalmente la API hará referencia al mismo nombre del Named Value
   # normalmente se mantiene el mismo nombre del origen y su display name tambien (se cambia para la demo)
     properties:
-      displayName: secreto-migrado-con-APIOS # displayname para destino se usa esto como ejemplo ya que no importa
+      displayName: srcreto-key-vault # displayname para destino se usa esto como ejemplo ya que no importa
       keyVault:
         identityClientId: 5dddf65a-a397-48df-8459-ca33acb72c80 # es el APP ID del managed identity destino 
         secretIdentifier: https://prd-key-vaultbci.vault.azure.net/secrets/secreto-kv-PRD/d7a0e236ed5b42cd981f9df60f836997 # el identifier del secreto creado en destino
