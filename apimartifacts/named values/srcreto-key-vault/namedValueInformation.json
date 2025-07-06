@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "displayName": "srcreto-key-vault",
+    "keyVault": {
+      "secretIdentifier": "https://dev-key-vaultbci.vault.azure.net/secrets/srcreto-key-vault"
+    },
+    "secret": true,
+    "tags": []
+  }
+}
