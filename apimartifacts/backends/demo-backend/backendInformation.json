@@ -3,7 +3,7 @@
     "credentials": {
       "header": {
         "secretkv": [
-          "{{srcreto-key-vault}}"
+          "{{secreto-kv-PRD}}"
         ],
         "secretplain": [
           "{{tiposecretvalue}}"
