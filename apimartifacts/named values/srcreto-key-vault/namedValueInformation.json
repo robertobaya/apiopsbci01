@@ -2,7 +2,7 @@
   "properties": {
     "displayName": "srcreto-key-vault",
     "keyVault": {
-      "secretIdentifier": "https://dev-key-vaultbci.vault.azure.net/secrets/srcreto-key-vault"
+      "secretIdentifier": "https://prd-key-vaultbci.vault.azure.net/secrets/secreto-kv-PRD"
     },
     "secret": true,
     "tags": []
