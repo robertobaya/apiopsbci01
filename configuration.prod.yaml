@@ -8,7 +8,7 @@ namedValues:
     properties:
       displayName: tiposecretvalue # displayname para destino
       value: "Prodsecret" # valor nuevo para destino
-  - name: srcreto-key-vaultPRD #nombre que deseamos darle al nuevo key vault secret en DESTINO Y DEBE MANTENERSE ESTE NOMBRE
+  - name: srcreto-key-vaultPRD #nobre del secreto en origen
     properties:
       displayName: srcreto-key-vaultPRD # displayname para destino
       keyVault:
