@@ -10,7 +10,7 @@ namedValues:
       value: "Prodsecret" # valor nuevo para destino
   - name: srcreto-key-vaultPRD #nobre del secreto en origen
     properties:
-      displayName: srcreto-key-vaultPRD # displayname para destino
+      displayName: srcreto-key-vault # displayname para destino
       keyVault:
         identityClientId: 5dddf65a-a397-48df-8459-ca33acb72c80 # es el APP ID del managed identity destino 
         secretIdentifier: https://prd-key-vaultbci.vault.azure.net/secrets/secreto-kv-PRD # el identifier del secreto creado en destin, no incluir la version al final
