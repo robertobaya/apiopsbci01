@@ -1,19 +1,28 @@
 # Note: With the introduction of workspaces we recommend using workspaces with APIOps when possible to limit what can be extracted whenever possible. 
 # More information about workspaces can be found here https://learn.microsoft.com/en-us/azure/api-management/workspaces-overview
  apiNames:
-  - swagger-petstore-openapi-3-0
- backendNames:
 
+ backendNames:
+  - demo-backend
  diagnosticNames:
 
  loggerNames:
 
  namedValueNames:
-
+  - srcreto-key-vault
+  - tipoplainvalue
+  - tiposecretvalue
  productNames:
-
+  - Starter
+  - Unlimited
  subscriptionNames:
-
+  - 685c9633aa29a40063070001
+  - 685c9633aa29a40063070002
  tagNames:
-  
+  - Integration
+  - pet
+  - store
+  - tagpublisher
+  - user
  policyFragmentNames:
+  - common-security-policy
